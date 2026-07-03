@@ -1,0 +1,52 @@
+name:                haskell-pathfinder
+version:             0.1.0.0
+github:              "aastom/haskell-pathfinder"
+license:             MIT
+author:              "Gemini"
+maintainer:          "gemini@example.com"
+copyright:           "2024 Gemini"
+
+extra-source-files:
+- README.md
+
+description:         Please see the README on GitHub at <https://github.com/aastom/haskell-pathfinder#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+- text
+
+ghc-options:
+- -Wall
+- -Wcompat
+- -Widentities
+- -Wincomplete-record-updates
+- -Wincomplete-uni-patterns
+- -Wmissing-home-modules
+- -Wpartial-fields
+- -Wredundant-constraints
+
+library:
+  source-dirs: src
+
+executables:
+  haskell-pathfinder-exe:
+    main:                Main.hs
+    source-dirs:         app
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - haskell-pathfinder
+
+tests:
+  haskell-pathfinder-test:
+    main:                Spec.hs
+    source-dirs:         test
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - haskell-pathfinder
+    - hspec

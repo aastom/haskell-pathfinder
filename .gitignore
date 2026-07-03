@@ -1,0 +1,17 @@
+# Stack
+.stack-work/
+
+# Dist
+dist/
+dist-newstyle/
+
+# Cabal
+cabal-dev/
+cabal.project.local
+
+# Haskell
+*.o
+*.hi
+*~
+.hie/
+.ghc.environment.*
