@@ -1,5 +1,10 @@
 # Haskell Pathfinder
 
+## 📚 Documentation
+
+- **[Drive Folder: Haskell Pathfinder — R&D Lab](https://drive.google.com/drive/folders/1hmhJ19Di_UneyK2jq77ohOGjjPhb4pPn)**
+- **[Main Documentation Bundle](https://docs.google.com/document/d/18uXrZDgPDxsV1FMBpKeMzGVHK9OCJr6v4yimVwE1adc/edit?usp=drivesdk)**
+
 This repository is the evolving codebase for a project-centric learning path designed to take an intermediate developer to an advanced level in Haskell. It eschews a theory-first approach in favor of iterative, practical application.
 
 The "real-world application" is not the final exam; it is the first step and the consistent thread through which all concepts are learned. Each step in the accompanying [GUIDE.md](GUIDE.md) corresponds to a Git tag, allowing you to check out the project at any stage of its evolution.
